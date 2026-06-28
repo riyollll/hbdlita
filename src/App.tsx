@@ -357,7 +357,7 @@ export default function App() {
           Layout family: full-bleed photo + bottom text overlay (NOT a left/right split)
       ───────────────────────────────────────── */}
       <section className="relative w-full min-h-[100dvh] bg-zinc-950 overflow-hidden flex items-end">
-        <img src={_img8} className="absolute inset-0 w-full h-full object-cover grayscale" alt="Profile" />
+        <img src={_img2} className="absolute inset-0 w-full h-full object-cover grayscale" alt="Profile" />
         <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/60 to-transparent" />
         <div className="absolute inset-0 bg-rose-900/20 mix-blend-multiply" />
         <div className="relative z-10 w-full border-t border-zinc-700/50">
